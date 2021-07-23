@@ -1,0 +1,49 @@
+
+body,html{padding: 0px;margin: 0px;height: 100%;   }
+body{background-image: url(../images/bacLogin2.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;}
+
+.mainLogin{position: relative;top: 25%;}
+.login {}
+input{box-shadow: none;outline: none}
+/**********************header***********************/
+
+.title{text-align: center;padding-bottom: 40px}
+.LBlogin {font-size: 200%;font-weight: bold;font-family: "Comic Sans MS", cursive, sans-serif}
+.LBlogin{color: #29ABE2;  }
+
+
+
+.login-panel{width: 300px;background-color: white;padding: 40px;margin: auto;border-radius: 10px;transition: 0.2s ease-in-out;box-shadow: 0px 0px 15px 8px  #29ABE2;position: relative;border: 2px solid #29ABE2;}
+.login-panel > div {margin: 6px;width: 100%;margin: auto;}
+.login-panel input[type="text"],.login-panel input[type="password"]{ border: none;left: 30%;width: 100%;padding: 10px;font-family: sans-serif;color: #29ABE2;font-size: 20px;border-bottom: thin solid #29ABE2;margin-bottom: 15px;background-size: 35px;background-position: left;background-repeat: no-repeat;padding-left: 55px;background-color: white;box-sizing: border-box;}
+.login-panel input[type="submit"]{width: 100%;height: 45px;margin: auto;border: thin solid #29ABE2;transition: 0.1s ease-in-out;margin-bottom: 20px;font-size: 130%;color: #29ABE2;border-radius: 4px;background-color: white;cursor: pointer}
+.login-panel input::placeholder{opacity: 0.5;}
+.login-panel .AdminName{background-image: url(../images/icons/Contacts_64px.png);}
+.login-panel .psw{background-image: url(../images/icons/Lock_64px.png);}
+.login-panel input[type="submit"]:hover{color: white;background-image:  linear-gradient(-90deg, #1f6abb,#82cbea);border-color: white;}
+.login-panel div a{color: #BABABA;font-family: sans-serif;font-size: 120%;margin: 10px;margin-left: 25px; display: block;}
+
+
+
+/************************************************************************************/
+.mainLogin .check {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;user-select: none;color: #BABABA;margin-left: 5px;font-size: 100%;font-family: sans-serif;font-weight: bold;padding-top: 5px}
+
+.mainLogin .check input[type="checkbox"] {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
+
+.mainLogin .checkmark {position: absolute;top: 0;left: 0; height: 25px;width: 25px;background-color: #eee;border-radius: 3px}
+
+.mainLogin .check:hover input ~ .checkmark {background-color: #ccc;}
+
+.mainLogin .check input[type="checkbox"]:checked ~ .checkmark {background-color: #29ABE2;}
+
+.mainLogin .checkmark:after {content: "";position: absolute;display: none;}
+
+.mainLogin .check input[type="checkbox"]:checked ~ .checkmark:after {display: block;}
+
+.mainLogin .check .checkmark:after {left: 9px;top: 5px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+
+@media screen and (max-width: 400px) {
+    .login-panel{width: 220px;}
+}
+
+

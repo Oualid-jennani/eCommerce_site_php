@@ -1,0 +1,30 @@
+
+
+/*********************************
+Footer
+*********************************/
+.site-footer{background-color:#0d82d3;padding:30px 0 0px;font-size:15px;line-height:24px;color:#FFFFFF;}
+
+.site-footer .title{font-size: 20px;padding-bottom: 20px}
+
+.site-footer p{color:#FFFFFF;border: none;margin-bottom: 5px}
+
+.site-footer p a{border: none;}
+.site-footer p a:hover{text-decoration: underline;background-color: inherit}
+
+
+.site-footer hr{border-top-color:#FFFFFF;opacity:0.5}
+.site-footer h6{font-size:14px;text-transform:uppercase;margin-top:5px;letter-spacing:2px;margin-bottom: 0 !important;}
+
+
+
+.site-footer .social{padding-bottom: 10px}
+.site-footer .social a{color: inherit;}
+.site-footer .social a i{cursor: pointer;}
+.site-footer .social h6 {font-size: 90%}
+.site-footer .social .row{}
+
+.tt-copy{font-size: 11px;line-height: 20px;background-color: white;color: black;padding: 10px 0;font-family: 'Open Sans', sans-serif;font-weight: bold;z-index: 1000;position: sticky}
+.tt-copy-right {text-align: right;font-size: 13px;}
+.tt-copy span{color: #0d82d3;text-decoration: underline}
+.tt-copy span a {background-color: inherit;cursor: pointer;;}
